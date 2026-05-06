@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logo from "@/assets/silber-fit-logo.png";
 
 const sections = [
   { id: "inicio", label: "Inicio" },
