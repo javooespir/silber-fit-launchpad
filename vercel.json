@@ -1,7 +1,10 @@
 {
-  "buildCommand": "npm run build && cp -r dist/client/assets public/ || true",
-  "outputDirectory": "public",
+  "buildCommand": "npm run build && node scripts/generate-index.js",
+  "outputDirectory": "dist/client",
   "devCommand": "npm run dev",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
