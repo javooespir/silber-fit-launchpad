@@ -49,9 +49,9 @@
   --popover: oklch(0.19 0.008 260);
   --popover-foreground: oklch(0.98 0 0);
 
-  --primary: oklch(0.62 0.22 25);                 /* #E63946 red */
+  --primary: oklch(0.5 0.15 25);                  /* deep muted red matching logo */
   --primary-foreground: oklch(0.99 0 0);
-  --primary-glow: oklch(0.7 0.24 25);
+  --primary-glow: oklch(0.58 0.17 25);
 
   --secondary: oklch(0.32 0.08 260);              /* #1D3557 deep blue */
   --secondary-foreground: oklch(0.99 0 0);
@@ -60,15 +60,15 @@
   --muted-foreground: oklch(0.72 0.01 260);
   --accent: oklch(0.32 0.08 260);
   --accent-foreground: oklch(0.99 0 0);
-  --destructive: oklch(0.62 0.22 25);
+  --destructive: oklch(0.5 0.15 25);
   --destructive-foreground: oklch(0.99 0 0);
 
   --border: oklch(0.28 0.015 260);
   --input: oklch(0.24 0.01 260);
-  --ring: oklch(0.62 0.22 25);
+  --ring: oklch(0.5 0.15 25);
 
-  --gradient-hero: linear-gradient(135deg, oklch(0.62 0.22 25 / 0.85), oklch(0.32 0.08 260 / 0.7));
-  --gradient-red: linear-gradient(135deg, oklch(0.62 0.22 25), oklch(0.5 0.2 20));
+  --gradient-hero: linear-gradient(135deg, oklch(0.5 0.15 25 / 0.8), oklch(0.32 0.08 260 / 0.7));
+  --gradient-red: linear-gradient(135deg, oklch(0.5 0.15 25), oklch(0.4 0.13 22));
   --gradient-dark: linear-gradient(180deg, oklch(0.14 0.005 260), oklch(0.1 0.005 260));
 }
 
@@ -98,10 +98,10 @@
   .text-3d-red {
     color: var(--primary);
     text-shadow:
-      1px 1px 0 oklch(0.5 0.2 20),
-      2px 2px 0 oklch(0.45 0.18 20),
-      3px 3px 0 oklch(0.4 0.16 20),
-      4px 4px 0 oklch(0.3 0.12 20),
+      1px 1px 0 oklch(0.42 0.13 22),
+      2px 2px 0 oklch(0.36 0.11 22),
+      3px 3px 0 oklch(0.3 0.09 22),
+      4px 4px 0 oklch(0.24 0.07 22),
       5px 5px 12px rgba(0,0,0,0.6);
   }
   .bg-gradient-hero { background: var(--gradient-hero); }
@@ -128,7 +128,7 @@
 .animate-fade-up { animation: fade-up 0.7s ease-out both; }
 
 @keyframes pulse-red {
-  0%, 100% { box-shadow: 0 0 0 0 oklch(0.62 0.22 25 / 0.6); }
-  50% { box-shadow: 0 0 0 14px oklch(0.62 0.22 25 / 0); }
+  0%, 100% { box-shadow: 0 0 0 0 oklch(0.5 0.15 25 / 0.6); }
+  50% { box-shadow: 0 0 0 14px oklch(0.5 0.15 25 / 0); }
 }
 .pulse-red { animation: pulse-red 2s infinite; }

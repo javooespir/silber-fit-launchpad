@@ -1,11 +1,11 @@
+import logo from "@/assets/silber-fit-logo.png";
+
 export function Footer() {
   return (
     <footer className="border-t border-border bg-background">
       <div className="container mx-auto px-5 py-14 grid md:grid-cols-4 gap-10">
         <div className="md:col-span-2">
-          <p className="font-display text-4xl text-3d-red leading-none">
-            SILBER<span className="text-foreground">FIT</span>
-          </p>
+          <img src={logo} alt="Silber Fit" className="h-12 w-auto object-contain" />
           <p className="mt-4 text-muted-foreground max-w-sm">
             Gimnasio en Castelar, Buenos Aires. Entrená con buena onda y resultados reales.
           </p>

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logo from "@/assets/silber-fit-logo.png";
 
 const sections = [
   { id: "inicio", label: "Inicio" },
@@ -27,8 +28,8 @@ export function Header() {
       }`}
     >
       <div className="container mx-auto px-5 flex items-center justify-between">
-        <a href="#inicio" className="font-display text-3xl md:text-4xl text-3d-red leading-none tracking-wide">
-          SILBER<span className="text-foreground">FIT</span>
+        <a href="#inicio" className="flex items-center gap-2 leading-none">
+          <img src={logo} alt="Silber Fit" className="h-9 md:h-10 w-auto object-contain" />
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
