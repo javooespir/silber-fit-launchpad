@@ -128,7 +128,7 @@
 .animate-fade-up { animation: fade-up 0.7s ease-out both; }
 
 @keyframes pulse-red {
-  0%, 100% { box-shadow: 0 0 0 0 oklch(0.62 0.22 25 / 0.6); }
-  50% { box-shadow: 0 0 0 14px oklch(0.62 0.22 25 / 0); }
+  0%, 100% { box-shadow: 0 0 0 0 oklch(0.5 0.15 25 / 0.6); }
+  50% { box-shadow: 0 0 0 14px oklch(0.5 0.15 25 / 0); }
 }
 .pulse-red { animation: pulse-red 2s infinite; }
