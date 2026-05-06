@@ -98,10 +98,10 @@
   .text-3d-red {
     color: var(--primary);
     text-shadow:
-      1px 1px 0 oklch(0.5 0.2 20),
-      2px 2px 0 oklch(0.45 0.18 20),
-      3px 3px 0 oklch(0.4 0.16 20),
-      4px 4px 0 oklch(0.3 0.12 20),
+      1px 1px 0 oklch(0.42 0.13 22),
+      2px 2px 0 oklch(0.36 0.11 22),
+      3px 3px 0 oklch(0.3 0.09 22),
+      4px 4px 0 oklch(0.24 0.07 22),
       5px 5px 12px rgba(0,0,0,0.6);
   }
   .bg-gradient-hero { background: var(--gradient-hero); }
