@@ -1,6 +1,6 @@
 {
-  "buildCommand": "npm run build && node scripts/generate-index.js",
-  "outputDirectory": "dist/client",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "devCommand": "npm run dev",
   "cleanUrls": true,
   "trailingSlash": false,
