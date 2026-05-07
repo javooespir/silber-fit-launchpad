@@ -57,7 +57,7 @@ export function Contact() {
               }
             />
             <ContactCard
-              href="https://instagram.com/silberfit"
+              href="https://www.instagram.com/silber.fit.castelar/"
               label="Instagram"
               value="@silberfit"
               icon={

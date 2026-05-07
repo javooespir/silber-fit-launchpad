@@ -35,7 +35,7 @@ export function Footer() {
             <li>Av. Rivadavia 21226</li>
             <li>Castelar, Buenos Aires</li>
             <li><a href="tel:+541123183961" className="hover:text-primary">011 2318-3961</a></li>
-            <li><a href="https://instagram.com/silberfit" target="_blank" rel="noreferrer" className="hover:text-primary">@silberfit</a></li>
+            <li><a href="https://www.instagram.com/silber.fit.castelar/" target="_blank" rel="noreferrer" className="hover:text-primary">@silberfit</a></li>
           </ul>
         </div>
       </div>
